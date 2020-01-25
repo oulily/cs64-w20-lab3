@@ -4,11 +4,11 @@
 #  Data Area - allocate and initialize variables
 .data
      # TODO: Write your string definitions here
-     prompt: .asciiz "Choose an integer number between 0 and 1000:\n"
-     hello: .asciiz "Hello World!\n"
+     prompt: .asciiz "Choose an integer number between 0 and 1000:\n\n"
+     hello: .asciiz "Hello World!\n\n"
      magicnum: .asciiz "The magic number is "
-     newline: .asciiz "\n"
-     exclaim: .asciiz "!!!\n"
+     newline: .asciiz "\n\n"
+     exclaim: .asciiz "!!!\n\n"
 
 #Text Area (i.e. instructions)
 .text
