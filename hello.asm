@@ -7,6 +7,7 @@
      prompt: .asciiz "Choose an integer number between 0 and 1000:\n"
      hello: .asciiz "Hello World!\n"
      magicnum: .asciiz "The magic number is "
+     newline: .asciiz "\n"
      exclaim: .asciiz "!!!\n"
 
 #Text Area (i.e. instructions)
@@ -28,6 +29,10 @@ main:
 
      li $v0, 1
      move $a0, $t0
+     syscall
+
+     li $v0, 4
+     la $a0, newline
      syscall
 
      li $v0, 4
