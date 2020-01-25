@@ -5,7 +5,7 @@
 .data
      # TODO: Write your string definitions here
      prompt: .asciiz "Choose an integer number between 0 and 1000:\n"
-     hello: .asciiz "Hello world!\n"
+     hello: .asciiz "Hello World!\n"
      magicnum: .asciiz "The magic number is "
      exclaim: .asciiz "!!!\n"
 
