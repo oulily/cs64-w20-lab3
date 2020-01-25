@@ -23,6 +23,10 @@ main:
      move $t0, $v0
 
      li $v0, 4
+     la $a0, hello
+     syscall
+
+     li $v0, 4
      la $a0, magicnum
      syscall
 
